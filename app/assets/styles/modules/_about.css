@@ -1,0 +1,30 @@
+.about {
+    background: $black;
+    color: $lightwhite;
+
+    &__title {
+        margin-bottom: 3rem;
+    }
+    
+    &__img {
+        border-radius: 7px;
+    }
+
+    &__desc {
+        background: url('./assets/images/bgg.jpg') no-repeat center;
+        background-size: cover;
+        @mixin atMedium {
+            padding: .1rem;
+        }
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    .fa-ul {
+        @mixin forSmall {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+footer {
+    background: $black;
+    color: $lightwhite;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+
+    @mixin atMedium {
+        display: flex;
+        justify-content: space-evenly;
+    }    
+
+    &__logo {
+        width: 250px;
+        margin: 0 auto 1.5rem auto; 
+        @mixin atMedium {
+            margin: 0;
+            width: 400px;
+        }
+    }
+
+    &__info {
+        div {
+            margin-bottom: 2.5rem;
+        }        
+    }
+}
+
+.footer > div {
+    margin-top: 2.5rem;
+    @mixin atMedium {
+        margin-top: 0;
+    }
+}
+
+.footer-text {
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-clr {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,47 @@
+.benefits {
+    background: $black;
+    color: $lightwhite;
+
+    &__sec {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    &__item {
+        flex: auto;
+        @mixin atMedium {
+            flex: 1;
+        }
+    }
+
+    .desc_sec {
+        background: url('./assets/images/bgg.jpg') no-repeat center;
+        background-size: cover;
+    }
+
+    .img_sec {
+        align-self: center;
+        padding: .8rem;
+    }
+
+    &__img {
+        border-radius: 7px;
+    }
+
+    &__desc {
+        @mixin atMedium {
+            padding: .1rem;
+        }
+    }
+
+    p {
+        padding: 1rem;
+    }
+
+    .fa-ul {
+        @mixin forSmall {
+            padding: 0;
+        }
+    }
+}
