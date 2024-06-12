@@ -1,9 +1,8 @@
 .services {
-    background: $gold;
-    color: $black;
+    background: $black;
 
     &__title {
-        color: $lightwhite;
+        color: $lightgold;
         margin-bottom: 4rem;
     }
     
@@ -35,7 +34,7 @@
         text-align: center;
         text-transform: uppercase;
         font-weight: 100;
-        color: $lightwhite;
+        color: $lightgold;
     }
 
     p {

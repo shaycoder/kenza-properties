@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kenza Properties</title>
-
+    <title>Kenza Properties - Affordable properties in Dubai</title>
+    <meta name="description" content="Kenza Properties founded by Dr. Shihab Sha is offering luxury real estate with exceptional amenities and prime locations in Dubai.">
+    <link rel="canonical" href="https://www.kenzaproperties.com">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/images/favicon/site.webmanifest">
@@ -15,6 +16,25 @@
     <meta name="theme-color" content="#ffffff">
     
     <script src="https://kit.fontawesome.com/0febe8b076.js" crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "image": "https://www.kenzaproperties.com/assets/images/about-img.webp",
+          "url": "https://www.kenzaproperties.com",
+          "logo": "https://www.kenzaproperties.com/assets/images/logo.webp",
+          "name": "Kenza Properties",
+          "description": "A distinguished multinational corporation at the forefront of the real estate industry in Dubai.",
+          "email": "info@kenzaproperties.com",
+          "telephone": "+971 507740338",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 2606, Regal Tower, Business Bay",
+            "addressLocality": "Dubai"
+          }
+        }
+    </script>
 </head>
 <body>
     <header class="site-header">
@@ -30,7 +50,7 @@
 
     <section class="hero-section">
         <div class="hero-section__all">
-            <img src="assets/images/logo.png" alt="Kenza Properties Logo">
+            <img src="assets/images/logo.webp" alt="Kenza Properties Logo">
             <h1 class="hero-section__title" data-aos="zoom-in" data-aos-delay="1000">Discover exceptional properties in Dubai with <br>KENZA Properties</h1>
         </div>
         <div class="site-header__menu-icon">
@@ -42,7 +62,7 @@
         <h2 class="about__title" data-aos="zoom-in">About Us</h2>
         <div class="flex-container">
             <div class="flex-item" data-aos="fade-right">
-                <img class="about__img" src="assets/images/7.jpg" alt="About Kenza Properties Image">
+                <img class="about__img" src="assets/images/about-img.webp" loading="lazy" alt="four people with dubai buildings and area in background">
             </div>
             <div class="flex-item about__desc" data-aos="fade-left">
                 <p>Welcome to <span class="text-gold">KENZA Properties</span>, a distinguished multinational corporation at the forefront of the real estate industry in Dubai. With a legacy of excellence and a commitment to providing unparalleled services, we have established ourselves as a trusted name in the property market. Our vision is to redefine living spaces and enhance lifestyles, making dreams of property ownership a reality.</p>
@@ -56,24 +76,24 @@
         <h2 class="services__title" data-aos="zoom-in">Our <span class="text-yellow">Services</span></h2>
         <div class="services__grid">
             <div>
-                <img data-aos="zoom-in" src="assets/images/17.jpg" alt="image showing about property sales, leasing">
+                <img data-aos="zoom-in" src="assets/images/property-sales.webp" loading="lazy" alt="Guy giving key to lady and there is a sign on the door showing For Sale">
                 <div class="grid_desc">
-                    <h3 data-aos="flip-up">1) Property Sales and Leasing</h3>
+                    <h3 data-aos="flip-up"> 1) Property Sales and Leasing</h3>
                     <p data-aos="fade-up">Whether you're buying, selling, or leasing a property, our expert team is here to assist you throughout the process. From market analysis to negotiations and contract finalization, we ensure a smooth and satisfying experience.</p>
                 </div>
             </div>
             <div>
-                <img data-aos="zoom-in" src="assets/images/9.jpg" alt="Investment image">
+                <img data-aos="zoom-in" src="assets/images/investment.webp" loading="lazy" alt="Two people shaking their hands">
                 <h3 data-aos="flip-up">2) Investment Consultancy</h3>
                 <p data-aos="fade-up">Looking to invest in Dubai's vibrant real estate market? Our investment consultants provide comprehensive market insights and tailor-made investment strategies to help you maximize returns and achieve your financial goals.</p>
             </div>
             <div>
-                <img data-aos="zoom-in" src="assets/images/14.jpg" alt="property management image">
+                <img data-aos="zoom-in" src="assets/images/property-management.webp" loading="lazy" alt="Guy showing property data through a bar chart">
                 <h3 data-aos="flip-up">3) Property Management</h3>
                 <p data-aos="fade-up">We offer property management services designed to relieve property owners of the day-to-day responsibilities of managing their real estate assets. Our services encompass tenant management, maintenance, financial reporting, and more.</p>
             </div>
             <div>
-                <img data-aos="zoom-in" src="assets/images/8.jpg" alt="project development image">
+                <img data-aos="zoom-in" src="assets/images/project.webp" loading="lazy" alt="project design of a bungalow">
                 <h3 data-aos="flip-up">4) Project Development</h3>
                 <p data-aos="fade-up">With a focus on quality and innovation, we are engaged in the development of exceptional real estate projects that cater to various market segments. From residential to commercial developments, we strive to create iconic structures that stand the test of time.</p>
             </div>
@@ -92,7 +112,7 @@
                 </ul>
             </div>
             <div class="benefits__item img_sec" data-aos="fade-left">
-                <img class="benefits__img" src="assets/images/12.jpg" alt="digital marketing image">
+                <img class="benefits__img" src="assets/images/benefits.webp" loading="lazy" alt="guy holding key and showing dubai area with buildings and properties in background">
             </div>
         </div>
     </section>
@@ -103,20 +123,20 @@
                 <h2 data-aos="flip-up">Contact Us</h2>
                 <p class="contact__text">We would love to hear from you and discuss how we can assist you in achieving your property goals. Feel free to reach out to us at:</p>            
                 <div class="contact-item">
-                    <label data-aos="fade-right">Your Name</label>
-                    <input type="text" class="contact-item__input" name="name" required>
+                    <label for="name" data-aos="fade-right">Your Name</label>
+                    <input id="name" type="text" class="contact-item__input" name="name" required>
                 </div>
                 <div class="contact-item">
-                    <label data-aos="fade-right">Your Email</label>
-                    <input type="email" class="contact-item__input" name="email" required>
+                    <label for="email" data-aos="fade-right">Your Email</label>
+                    <input id="email" type="email" class="contact-item__input" name="email" required>
                 </div>
                 <div class="contact-item">
-                    <label data-aos="fade-right">Your Phone No.</label>
-                    <input type="text" class="contact-item__input" name="phone" required>
+                    <label for="phone" data-aos="fade-right">Your Phone No.</label>
+                    <input id="phone" type="text" class="contact-item__input" name="phone" required>
                 </div>
                 <div class="contact-item">
-                    <label data-aos="fade-right">Your Message</label>
-                    <textarea name="message" class="contact-item__input" rows="4" required></textarea>
+                    <label for="message" data-aos="fade-right">Your Message</label>
+                    <textarea id="message" name="message" class="contact-item__input" rows="4" required></textarea>
                 </div>
                 <div class="contact-item">
                     <input type="submit" name="submit" class="btn contact-item__btn" value="Submit">
@@ -130,13 +150,13 @@
     </div>
 
     <div class="go-to-top">
-        <a href="#top"><i class="fas fa-circle-chevron-up fa-bounce"></i></a>
+        <a href="#top" aria-label="Go to top section"><i class="fas fa-circle-chevron-up fa-bounce"></i></a>
     </div>
 
     <footer>
         <div class="footer wrapper">
             <div class="footer__logo">
-                <img data-aos="zoom-out-down" src="assets/images/logo.png" alt="logo in the footer section">
+                <img data-aos="zoom-out-down" src="assets/images/logo.webp" loading="lazy" alt="logo in the footer section">
             </div>
             <div class="footer__info">
                 <div>
@@ -150,14 +170,16 @@
                 <div>
                     <span><i class="fa-solid fa-mobile fa-clr"></i></span>
                     <p data-aos="zoom-out-left">
-                        Landline: 048347465 <br>
-                        Mobile: +971 54 888 3700
+                        For Sales: +971 50 774 0338
                     </p>
                 </div>
                 
                 <div>
                     <span><i class="fa-solid fa-envelope fa-clr"></i></span>
-                    <p data-aos="zoom-out-right">info@kenzaproperties.com</p>
+                    <p data-aos="zoom-out-right">
+                        info@kenzaproperties.com <br>
+                        +971 54 888 3700, 048347465
+                    </p>
                 </div>
                      
             </div>
